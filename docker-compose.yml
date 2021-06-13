@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  mail:
+    image: afjacanamijoy/server_mail:1.0
+    container_name: mail
+    ports:
+    - "25:25"
+    - "80:80"
+    - "8081:8081"
+    
